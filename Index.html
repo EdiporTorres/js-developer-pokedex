@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- ///normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Assets/CSS/Global.css">
+    <link rel="stylesheet" href="/Assets/CSS/Pokedex.css">
+    <link rel="stylesheet" href="/Assets/CSS/pokemon.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="pokemon-details" class="content">
+        <h1>pokedex</h1>
+
+        <ol id="pokemonList" class="pokemons">
+           
+        </ol>
+        <div class="pagination">
+        <button id="Loadmore" type ="button">
+            Mais
+        </button>
+    </div>
+    </section>
+   
+    <script src="/Assets/JS/pokemon-model.js"></script> 
+    <script src="/Assets/JS/pokeAPI.js"></script>
+    <script src="/Assets/JS/pokemondetail.js"></script> 
+    <script src="/Assets/JS/Main.js"></script>
+ 
+</body>
+
+</html>
