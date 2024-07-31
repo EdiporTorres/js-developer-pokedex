@@ -1,13 +1,13 @@
-
 class Pokemon {
     number;
     name;
     type;
-    types = {};
+    types = [];
     photo;
-    abilities = [];
-    species = [];
     height;
     weight;
-
+    abilities = [];
+    species;
+    moves = [];
+    stats = [];
 }
